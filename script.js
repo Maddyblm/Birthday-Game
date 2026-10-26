@@ -1,4 +1,4 @@
-
+//Maping the codes
 const codes = {
     "Martin30": "rätsel2.html",
     "Lieblingsbruder": "rätsel3.html",
