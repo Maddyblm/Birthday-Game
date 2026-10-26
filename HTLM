@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Game</title>
+  <meta http-equiv="refresh" content="0; url=hello.html">
+</head>
+<body>
+  <p>Dein Geburtstagsabenteuer startet!</p>
+  <a href="hello.html">Hier starten</a>
+</body>
+</html>
