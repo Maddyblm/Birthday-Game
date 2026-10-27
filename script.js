@@ -1,5 +1,4 @@
 //Maping the codes
-
 const codes = {
     "Martin30": "raetsel1.html",
     "Lieblingsbruder": "raetsel2.html",
@@ -13,23 +12,23 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = document.getElementById("message");
 
     if (!submitBtn || !codeInput || !message) {
-        console.error("Button, Eingabefeld oder Meldung fehlt.");
+        console.error("Ein HTML-Element fehlt!", {
+            submitBtn, codeInput, message
+        });
         return;
     }
 
     submitBtn.addEventListener("click", () => {
         const userCode = codeInput.value.trim();
+        const target = codes[userCode];
 
-        if (Object.prototype.hasOwnProperty.call(codes, userCode)) {
-            const target = codes[userCode];
+        if (target) {
             message.textContent = "Korrekt! Weiterleitung...";
-
             setTimeout(() => {
-                window.location.assign(target);
-            }, 2000);
+                window.location.href = target;
+            }, 1000);
         } else {
             message.textContent = "Falscher Code. Bitte versuche es erneut.";
         }
     });
 });
-
