@@ -3,7 +3,7 @@ const codes = {
     "Martin30": "rätsel2.html",
     "Lieblingsbruder": "rätsel3.html",
     "07.10.1996": "rätsel3.html",
-    "Sei gegrüßt mein getreuer Bruder! An diesem Tag sei dir kundiggetan, dass du nun dreißig Sonnenjahre durchschritten hast. Möchten die Sterne deinen Pfad erleuchten und Gesundheit, Glück und Weisheit dir stets Gefährten sein.": "final.html"
+    "Sei gegrüßt mein getreuer Bruder! An diesem Tag sei dir kundiggetan, dass du nun dreißig Sonnenjahre durchschritten hast. Möchten die Sterne deinen Pfad erleuchten und Gesundheit, Glück und Weisheit dir stets Gefährten sein.": "rätsel3.html"
 };
 
 const submitBtn = document.getElementById("submitBtn");
