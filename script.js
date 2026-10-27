@@ -1,9 +1,9 @@
 //Maping the codes
 const codes = {
-    "Martin30": "rätsel1.html",
-    "Lieblingsbruder": "rätsel2.html",
-    "07.10.1996": "rätsel3.html",
-    "Sei gegrüßt mein getreuer Bruder! An diesem Tag sei dir kundiggetan, dass du nun dreißig Sonnenjahre durchschritten hast. Möchten die Sterne deinen Pfad erleuchten und Gesundheit, Glück und Weisheit dir stets Gefährten sein.": "rätsel3.html"
+    "Martin30": "raetsel1.html",
+    "Lieblingsbruder": "raetsel2.html",
+    "07.10.1996": "raetsel3.html",
+    "Sei gegrüßt mein getreuer Bruder! An diesem Tag sei dir kundiggetan, dass du nun dreißig Sonnenjahre durchschritten hast. Möchten die Sterne deinen Pfad erleuchten und Gesundheit, Glück und Weisheit dir stets Gefährten sein.": "raetsel3.html"
 };
 
 const submitBtn = document.getElementById("submitBtn");
