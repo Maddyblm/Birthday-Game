@@ -1,5 +1,5 @@
 //Maping the codes
-  
+
 const codes = {
     "Martin30": "raetsel1.html",
     "Lieblingsbruder": "raetsel2.html",
